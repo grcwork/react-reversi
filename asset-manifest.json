@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-reversi/static/css/main.6c0f8185.chunk.css",
+    "main.js": "/react-reversi/static/js/main.e0c602c9.chunk.js",
+    "main.js.map": "/react-reversi/static/js/main.e0c602c9.chunk.js.map",
+    "runtime-main.js": "/react-reversi/static/js/runtime-main.b3998da8.js",
+    "runtime-main.js.map": "/react-reversi/static/js/runtime-main.b3998da8.js.map",
+    "static/js/2.faa1b0c6.chunk.js": "/react-reversi/static/js/2.faa1b0c6.chunk.js",
+    "static/js/2.faa1b0c6.chunk.js.map": "/react-reversi/static/js/2.faa1b0c6.chunk.js.map",
+    "index.html": "/react-reversi/index.html",
+    "static/css/main.6c0f8185.chunk.css.map": "/react-reversi/static/css/main.6c0f8185.chunk.css.map",
+    "static/js/2.faa1b0c6.chunk.js.LICENSE.txt": "/react-reversi/static/js/2.faa1b0c6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b3998da8.js",
+    "static/js/2.faa1b0c6.chunk.js",
+    "static/css/main.6c0f8185.chunk.css",
+    "static/js/main.e0c602c9.chunk.js"
+  ]
+}

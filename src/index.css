@@ -1,13 +1,137 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+
+.square {
+    /*background: #fff;*/
+    background: #70c568;
+    border: 1px solid #999;
+    float: left;
+    height: 44px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    width: 44px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.square:focus {
+    outline: none;
+}
+
+.square:hover {
+    background: #e6dede;
+}
+
+.board {
+    width: 345px;
+    /*margin: auto;*/
+    margin-left: 20px;
+    display: inline-block;
+}
+
+#status {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    text-align: center;
+    width: 50px;
+    height: 60px;
+    background-color: #6d6de4;
+    border-radius: 6px;
+}
+
+#root {
+    background-color: #dfdebd;
+    /*width: 450px;*/
+    width: 500px;
+    height: 560px;
+    margin: auto;
+    border-radius: 6px;
+}
+
+.scores {
+    border: 1px solid red;
+    width: 185px;
+    height: 65px;
+    margin-left: 100px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.scores > .black-score {
+    display: inline-block;
+    /*border: 1px solid red;*/
+    width: 80px;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.scores > .white-score {
+    display: inline-block;
+    /*border: 1px solid red;*/
+    width: 80px;
+}
+
+.scores > .black-score > svg{
+    /*display: inline-block;*/
+    /*border: 1px solid red;*/
+    margin-top: 5px;
+}
+
+.scores > .white-score > svg{
+    /*display: inline-block;*/
+    /*border: 1px solid red;*/
+    margin-top: 5px;
+}
+
+.scores > .black-score > p{
+    /*display: inline-block;*/
+    float: right;
+    /*border: 1px solid red;*/
+    margin-right: 15px;
+}
+
+.scores > .white-score > p{
+    /*display: inline-block;*/
+    float: right;
+    /*border: 1px solid red;*/
+    margin-right: 15px;
+}
+
+#winner-status {
+    width: 115px;
+    margin-left: 135px;
+    margin-bottom: 5px;
+    color: #eb6d19;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#undo {
+    display: block;
+    width: 70px;
+    height: 20px;
+    margin-left: 160px;
+}
+
+.select-mode {
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+}
+
+.select-mode > #one-player {
+    display: block;
+}
+
+.select-mode > #two-players {
+    display: block;
+    margin-top: 4px;
+}
+
+.select-mode > #restart {
+    display: block;
+    margin-top: 4px;
 }

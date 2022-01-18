@@ -1,3 +1,7 @@
 # React Reversi
 
-Classic reversi game using React. You can play [here](https://grcwork.github.io/react-reversi/).
+## Online classic Reversi game. This proyect is build using React. Play now! (link below).
+
+![Game](/readme_files/images/image1.png)
+
+**You can play** [here](https://grcwork.github.io/react-reversi/)
